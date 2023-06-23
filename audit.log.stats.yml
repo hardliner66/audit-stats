@@ -1,0 +1,43 @@
+/bin/cat:
+  type:
+    SYSCALL: 1
+  exe:
+    /bin/cat: 1
+  msg:
+    'audit(1522927552.749:917):': 1
+  ppid:
+    '2906': 1
+  pid:
+    '4668': 1
+  auid:
+    '1000': 1
+  uid:
+    '0': 1
+  gid:
+    '0': 1
+  euid:
+    '0': 1
+  suid:
+    '0': 1
+  fsuid:
+    '0': 1
+  egid:
+    '0': 1
+  sgid:
+    '0': 1
+  fsgid:
+    '0': 1
+  tty:
+    pts4: 1
+  ses:
+    '1': 1
+  comm:
+    cat: 1
+UNKNOWN:
+  type:
+    CWD: 1
+    PATH: 1
+    UNKNOWN[1327]: 1
+  msg:
+    'audit(1522927552.749:917):': 3
+
